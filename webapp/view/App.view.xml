@@ -4,6 +4,7 @@
 		xmlns="sap.m"
 		xmlns:l="sap.ui.layout"
 		xmlns:core="sap.ui.core">
-        <Button text="Hello" press="onPress()">
+        <Button text="{translableTexts>sayPressMe}" press="onPress()">
         </Button>
+		<Input value = "{/recipent/name}"/>
 </mvc:View>
