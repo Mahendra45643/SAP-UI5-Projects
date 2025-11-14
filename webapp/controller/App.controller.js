@@ -4,7 +4,6 @@ sap.ui.define(
 
         return Controller.extend("ui5.walkthrough.controller.App",{
            onPress: () =>{
-            debugger;
             console.log("ButtonPressed");
             alert("Say Hi") 
 
